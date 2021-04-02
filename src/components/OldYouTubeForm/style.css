@@ -1,0 +1,38 @@
+.wrapper {
+  margin: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  width: 250px;
+  padding: 10px;
+
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+label {
+  margin: 10px;
+  color: blue;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+}
+
+.button {
+  width: 150px;
+  margin-top: 15px;
+  padding: 5px;
+
+  border-radius: 5px;
+  background-color: lightblue;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+}
